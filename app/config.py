@@ -1,5 +1,5 @@
 import os
-from .keys import DB_USERNAME, DB_PWD, DB_HOST, DB_PORT, DB_NAME
+from .keys import DB_USERNAME, DB_PWD, DB_HOST, DB_PORT, DB_NAME # 从keys.py导入数据库配置，自行添加
 
 # 统一数据库连接字符串格式
 def make_db_uri(db_name):
